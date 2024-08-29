@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', sans-serif
+}
+
+body {
+    max-width: 500px;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Caveat', system-ui;
+    font-size: 60px;
+    margin: 35px 0 10px 0;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+input, button {
+    font-size: 15px;
+    height: 30px;
+}
+
+input {
+    width: 70%;
+}
+
+button {
+    width: 28%;
+}
+
+li {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.completada {
+    text-decoration: line-through;
+    text-decoration-thickness: 2px;
+}
